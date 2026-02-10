@@ -1,3 +1,36 @@
+ body{
+            font-family:Arial,sans-serif;
+            text-align:center;
+        }
+        
+        .sun{
+            color: red;
+            font-weight:bold;
+        }
+       
+        h2{
+            margin-bottom:10px;}
+            
+        .calender{
+            border-collapse:cllapse;
+            margin:0 auto;
+            width:400px;
+        }
+        
+           
+        .calendar th{
+                background-color:#f2f2f2;
+                 font-weight:bold;
+            }
+            
+         .calender th,
+         .calender td{
+                border:1px solid #ccc;
+                width:14.2%;
+                height:60px;
+                text-align:center;
+                vertical-align:middle;
+            }
 .holiday{
             color: red;
              font-weight:bold;
