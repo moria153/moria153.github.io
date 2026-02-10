@@ -11,10 +11,10 @@
         h2{
             margin-bottom:10px;}
             
-        .calender{
+        .calendar{
             border-collapse:cllapse;
             margin:0 auto;
-            width:400px;
+            width: 400px;
         }
         
            
@@ -23,8 +23,8 @@
                  font-weight:bold;
             }
             
-         .calender th,
-         .calender td{
+         .calendar th,
+         .calendar td{
                 border:1px solid #ccc;
                 width:14.2%;
                 height:60px;
