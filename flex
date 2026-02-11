@@ -6,6 +6,9 @@
 </head>
 <body>
     <h1>안녕하세요!</h1>
-    
+     <div class="flex-center"><div="box"></div>
+      
+    </div>
+   
 </body>
 </html>
