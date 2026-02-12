@@ -10,45 +10,44 @@
   box-sizing: border-box;
 }
 
-/* 전체 컨테이너를 화면 꽉 차게 설정 */
+
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh; /* 브라우저 높이에 맞춤 */
-}
+  height: 100vh; 
 
-/* 상단과 하단: 높이는 고정하거나 내용만큼 차지함 */
+
 .header, .footer {
-  background-color: #333;
+  background-color: #0baaff;
   color: white;
   padding: 20px;
   text-align: center;
 }
 
-/* 중간 섹션: 남은 세로 공간을 모두 차지하도록 flex: 1 설정 */
+flex: 1 
 .middle-section {
   display: flex;
   flex: 1; 
-  overflow: hidden; /* 내용이 많아지면 내부 스크롤 발생 대비 */
+  overflow: hidden; 
 }
 
-/* 좌우 사이드바: 고정 너비 혹은 최소 너비 설정 */
+
 .sidebar {
   background-color: #f0f0f0;
   width: 200px;
   padding: 20px;
 }
 
-/* 중앙 메인: 남은 가로 공간을 모두 차지하도록 flex: 1 설정 */
+ flex: 1 */
 .main-content {
-  background-color: #ffffff;
-  flex: 1; /* 핵심: 좌우 사이드바를 제외한 나머지 공간을 다 씀 */
+  background-color: #00aaff;
+  flex: 1; 
   padding: 40px;
-  overflow-y: auto; /* 내용이 길어지면 중앙만 스크롤 */
+  overflow-y: auto;
   text-align: center;
 }
 
-/* 좌우 구분선 (선택사항) */
+
 .left { border-right: 1px solid #ddd; }
 .right { border-left: 1px solid #ddd; }
     
@@ -57,18 +56,18 @@
 <body>
     <h1></h1>
   <div class="container">
-  <!-- 상단 영역 -->
-  <header class="header">상단 (Header)</header>
+  
+  <header class="header">(Header)</header>
 
-  <!-- 중간 영역 (좌, 중앙, 우) -->
+
   <div class="middle-section">
-    <aside class="sidebar left">좌측 칸</aside>
-    <main class="main-content">중앙 메인 내용 (가변 영역)</main>
+    <aside class="sidebar left"></aside>
+    <main class="main-content"></main>
     <aside class="sidebar right">우측 칸</aside>
   </div>
 
-  <!-- 하단 영역 -->
-  <footer class="footer">하단 (Footer)</footer>
+ 
+  <footer class="footer"> (Footer)</footer>
 </div>
     <a href="https://moria153.github.io/02_12.html">메뉴</a>
 </body>
