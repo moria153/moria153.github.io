@@ -20,7 +20,7 @@
 
 /* 상단과 하단: 높이는 고정하거나 내용만큼 차지함 */
 .header, .footer {
-  background-color: #333;
+  background-color: #00bbaa;
   color: white;
   padding: 20px;
   text-align: center;
@@ -35,14 +35,14 @@
 
 /* 좌우 사이드바: 고정 너비 혹은 최소 너비 설정 */
 .sidebar {
-  background-color: #f0f0f0;
+  background-color: #b0aaff;
   width: 200px;
   padding: 20px;
 }
 
 /* 중앙 메인: 남은 가로 공간을 모두 차지하도록 flex: 1 설정 */
 .main-content {
-  background-color: #ffffff;
+  background-color: yellow;
   flex: 1; /* 핵심: 좌우 사이드바를 제외한 나머지 공간을 다 씀 */
   padding: 40px;
   overflow-y: auto; /* 내용이 길어지면 중앙만 스크롤 */
@@ -57,19 +57,19 @@
 </head>
 <body>
     <h1></h1>
-  <div class="container">
-  
-  <header class="header">(Header)</header>
+<div class="container">
+  <!-- 상단 영역 -->
+  <header class="header">상단 (Header)</header>
 
-
+  <!-- 중간 영역 (좌, 중앙, 우) -->
   <div class="middle-section">
-    <aside class="sidebar left"></aside>
-    <main class="main-content"></main>
+    <aside class="sidebar left">좌측 칸</aside>
+    <main class="main-content">중앙 메인 내용 (가변 영역)</main>
     <aside class="sidebar right">우측 칸</aside>
   </div>
 
- 
-  <footer class="footer"> (Footer)</footer>
+  <!-- 하단 영역 -->
+  <footer class="footer">하단 (Footer)</footer>
 </div>
     <a href="https://moria153.github.io/02_12.html">메뉴</a>
 </body>
